@@ -9,10 +9,10 @@ jobs:
         name: Update terraform variables
         uses: ./.github/workflows/build-and-run-tool.yaml
         secrets:
-            AWS_DEFAULT_REGION: ""
-            AWS_ACCOUNT_ID: ""
-            AWS_SECRET_ACCESS_KEY: ""
-            AWS_SESSION_TOKEN: ""
+            AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_RESGION }}
+            AWS_ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
+            AWS_ROLE: ${{ secrets.AWS_ROLE }}
+
 
 
 
