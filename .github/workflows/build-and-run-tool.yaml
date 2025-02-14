@@ -37,4 +37,3 @@ jobs:
 
       - name: "Build gradle"
         run: AWS_PROFILE=AdministratorAccess-${{ secrets.AWS_ACCOUNT_ID }} gradle clean test --info
-
