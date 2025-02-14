@@ -6,10 +6,9 @@ on:
         required: true
       AWS_ACCOUNT_ID:
         required: true
-      AWS_SECRET_ACCESS_KEY:
+      AWS_ROLE:
         required: true
-      AWS_SESSION_TOKEN:
-        required: true
+
 
 
 
