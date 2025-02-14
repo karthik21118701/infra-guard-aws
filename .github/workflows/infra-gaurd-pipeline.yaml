@@ -2,7 +2,7 @@ name: Run Infra Guard tool
 on:
     push:
         branches: 
-            - 'feat/**'
+            - 'main'
     workflow_dispatch:
 
 jobs:
