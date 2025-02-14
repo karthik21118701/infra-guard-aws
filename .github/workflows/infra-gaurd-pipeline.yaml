@@ -2,7 +2,7 @@ name: Run Infra Guard tool
 on:
     push:
         branches: 
-            - 'feat/cicd-pipeline'
+            - 'main'
     workflow_dispatch:
 
 jobs:
