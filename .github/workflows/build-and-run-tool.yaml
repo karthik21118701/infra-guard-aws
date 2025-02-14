@@ -36,5 +36,5 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
 
       - name: "Build gradle"
-        run: AWS_PROFILE=AdministratorAccess-${{ secrets.AWS_ACCOUNT_ID }} ./gradlew clean test --info
+        run: AWS_PROFILE=AdministratorAccess-${{ secrets.AWS_ACCOUNT_ID }} gradlew clean test --info
 
