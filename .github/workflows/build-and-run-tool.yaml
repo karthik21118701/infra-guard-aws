@@ -43,4 +43,4 @@ jobs:
         if: always()
         with:
           branch: 'main'
-          folder: ./reports/extent-report
+          folder: ./build/reports/tests/test
