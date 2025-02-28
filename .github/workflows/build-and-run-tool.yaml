@@ -40,6 +40,7 @@ jobs:
 
       - name: "Publish Report"
         uses: JamesIves/github-pages-deploy-action@v4.5.0
+        if: always()
         with:
           branch: 'main'
           folder: ./reports/extent-report
